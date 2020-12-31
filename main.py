@@ -43,9 +43,9 @@ def send_mail():
 
         Regards
         Prudhvi V'''
-    sender = 'eswarprudhvi3@gmail.com'
-    password = '976397631'
-    receiver = 'mps.tulasi@gmail.com'
+    sender = 'mymail@gmail.com'
+    password = '**********'
+    receiver = 'tomail@gmail.com'
     message = MIMEMultipart()
     message['From'] = sender
     message['To'] = receiver
